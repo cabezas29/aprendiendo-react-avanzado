@@ -1,7 +1,12 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import { ListOfCategories } from './components/ListOfCategories'
+import { GlobalStyle } from './GlobalStyles'
+import { PhotoCard } from './components/PhotoCard/index'
 
 export const App = () => (
-  <ListOfCategories />
+  <div>
+    <GlobalStyle />
+    <ListOfCategories />
+    <PhotoCard />
+  </div>
 )
