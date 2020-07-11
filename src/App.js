@@ -1,8 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { Category } from './components/Category'
-
+import { ListOfCategories } from './components/ListOfCategories'
 
 export const App = () => (
-  <Category />
+  <ListOfCategories />
 )
