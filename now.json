@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "name": "petgram",
+  "builds": [
+    { "use": "package.json"}
+  ],
+  "routes": [
+    {
+      "src": "(.*).js",
+      "dest": "/index.js"
+    },
+    {
+      "src": "(.*).json",
+      "dest": "/index.json"
+    },
+    {
+      "src": "/.*",
+      "dest": "/index.html"
+    }
+  ]
+}
